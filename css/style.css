@@ -1,0 +1,441 @@
+body{
+  background-color: #000;
+}
+
+   /* CONTAINER 1 */
+.container .is-active{
+  height: 80vh;
+  display: none;
+}
+.yellow-color1{
+  color: #ffe81f;
+  font-family: STARWARS;
+  font-size: 100px;
+  margin-top: 70px;
+  margin-left: 38%;
+  /* padding: 189px 147px; */
+}
+.yellow-color2{
+  color: #ffe81f;
+  font-family: STARWARS;
+  font-size: 100px;
+  margin-top: -30px;
+  margin-left: 36%;
+  /* padding: 189px 147px; */
+}
+.title-love{
+  color: white;
+  font-size: 36px;
+  margin-top: -90px;
+  margin-left: 35%;
+}
+.button{
+  width: 340px;
+  height: 77px;
+  border: 3px solid #ffe81f;
+  margin-left: 36%;
+  margin-top: -20px;
+  cursor: pointer;
+}
+.start-button{
+  color: #ffe81f;
+  font-family: STARWARS;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 19px;
+}
+.button:hover{
+  border: 3px solid #fff;
+}
+.button:hover .start-button{
+   color: #fff;
+}
+
+    /* CONTAINER 2 */
+
+.container2 {
+  height: 45vh;
+  display: none;
+}
+.galaxy{}
+.text-time{
+  color: #ffe81f;
+  margin-left: 60%;
+  font-family: STARWARS;
+}
+.galaxy-text{
+  margin-top: 45vh;
+  font-size: 40px;
+  text-align: center;
+  font-family: arial;
+  color: #4bd5ee;
+  opacity: 0;
+  animation-delay: 1s;
+  animation-duration: 7s;
+  animation-name: a-long-time-ago;
+  animation-timing-function: ease-out;
+}
+@keyframes a-long-time-ago {
+    0%   { opacity: 0; }
+    7%   { opacity: 0.1; }
+    15%   { opacity: 0.2; }
+    30%  { opacity: 0.5; }
+    40%  { opacity: 1; }
+    50%  { opacity: 1; }
+    60%  { opacity: 1; }
+    70% { opacity: 0.5; }
+    85%   { opacity: 0.2; }
+    100% { opacity: 0; }
+   }
+
+    /* CONTAINER 3 */
+.container3{
+  height: 90vh;
+  display: none;
+}
+.generique{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  width: 1330px;
+  margin: 0 0 0 -650px;
+  top: auto;
+  bottom: 0;
+  height: 50em;
+  /* cosmétique */
+  color: #ffff66;
+  font-size: 94px;
+  text-align: justify;
+  overflow: hidden;
+  overflow-x: hidden;
+  /* Applique la transformation  */
+  transform-origin: center bottom;
+  transform: perspective(300px) rotateX(25deg);
+}
+.text{
+  font-size:195px;
+  position: absolute;
+  top: 100%;
+  animation-delay: 1s; /* Démarre l'animation après la première */
+  animation-duration: 110s;
+  animation-name: text;
+  animation-timing-function: linear;
+  overflow: hidden;
+  overflow-x: hidden;
+}
+@keyframes text {
+    0% {
+        top: 100%;
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 0; /* disparition progressive à la fin */
+    }
+
+    100% {
+        top: 0;
+        opacity: 0;
+    }
+}
+.seduction{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  width: 1330px;
+  margin: 0 0 0 -650px;
+  top: auto;
+  bottom: 0;
+  height: 50em;
+  /* cosmétique */
+  color: #ffff66;
+  font-size: 94px;
+  text-align: justify;
+  overflow: hidden
+}
+  .para{
+    color: #ffe81f;
+    font-size: 95px;
+    font-family: arial;
+    text-align: center;
+  }
+  .container-buttonReady{
+    display: flex;
+  }
+  .notReady-button{
+    width: 20%;
+    height: 8%;
+    background-color: yellow;
+    border: 2px solid white;
+    margin-top: 9%;
+    margin-left: 28%;
+    margin-right: -18%;
+    cursor: pointer;
+  }
+  .text-dont-want{
+    margin-top: 5%;
+    margin-left: 20%;
+  }
+  .ready-button{
+   width: 20%;
+   height: 8%;
+   background-color: yellow;
+   border: 2px solid white;
+   margin-top: 9%;
+   margin-left: 28%;
+   margin-right: -18%;
+   cursor: pointer;
+ }
+  .text-ready{
+    margin-top: 5%;
+    margin-left: 20%;
+  }
+
+                    /* CONTAINER 4 */
+
+.container4{
+  height: 90vh;
+  display: none;
+}
+.container-items{}
+.items{
+  display: flex;
+}
+.items-sous{}
+.text-items{
+  width: 100%;
+  height: 55%;
+  margin-left: 20%;
+}
+.yoda-image{
+  width: 35%;
+  height: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.text-items-content{
+  color: white;
+  font-size: 32px;
+  font-family: STARWARS;
+  text-align: center;
+  margin-top: 5%;
+
+}
+.buttons-items{
+  display: flex;
+  margin-top: 10%;
+  margin-left: 25%;
+}
+.button-sur{
+  width: 54%;
+  height: 7%;
+  border: 3px solid #ffe81f;
+  margin-left: 11%;
+  cursor: pointer;
+}
+.text-sur{
+  color: white;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.button-try{
+  width: 54%;
+  height: 7%;
+  border: 3px solid #ffe81f;
+  margin-left: 11%;
+  cursor: pointer;
+}
+.text-try{
+  color: white;
+  margin-top: 2%;
+  margin-left: ;
+}
+
+          /* CONTAINER 5 */
+
+.container5{
+  display: none;
+  width: 100%;
+  height: 97vh;
+  overflow: hidden;
+
+}
+.items{
+}
+.text-choiseParent{
+width: 100%;
+
+}
+.text-choise{
+  color: #ffe81f;
+  font-family: STARWARS;
+  font-size: 2em;
+  margin-top: 5%;
+  margin-left: 25%;
+}
+.pictures{
+  width: 100%;
+  display: flex;
+}
+.picture1{
+  width: 30%;
+  height: 40%;
+  background-color: black;
+  margin-left: 12%;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.picture2{
+  width: 30%;
+  height: 40%;
+  background-color: black;
+  margin-left: 15%;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.image-pseudo1{
+  width: 100%;
+  height: 100%;
+}
+.image-pseudo2{
+  width: 100%;
+  height: 100%;
+}
+.text-choise-pseudoParent{
+  width: 100%;
+}
+.text-choise-pseudo{
+  color: #ffe81f;
+  font-family: STARWARS;
+  font-size: 2em;
+  text-align: center;
+
+}
+.inputs-Go{
+  width: 100%;
+  text-align: center;
+}
+.input-pseudoChoise{
+  width: 30%;
+  height: 8%;
+  font-family: arial;
+  font-size: 22px;
+  border: 2px solid #ffe81f;
+  background-color: #fff;
+  outline-style: none;
+}
+.submit-go{
+  width: 13%;
+  height: 8%;
+  font-family: arial;
+  font-size: 22px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  background-color: #ffe81f;
+  outline-style: none;
+}
+
+.picture1:hover{
+  border: 3px solid #ffe81f;
+  box-shadow: 4px 4px 6px yellow, -0.2em 0 .3em yellow;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.picture1:hover .image-pseudo1{
+   color: #fff;
+}
+.picture2:hover{
+  border: 3px solid #ffe81f;
+  box-shadow: inset 0 0 1em gold, 0 0 2em #ffe81f;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.picture2:hover .image-pseudo2{
+   color: #fff;
+}
+                 /* CONTAINER 6 */
+
+.container6{
+ width: 100%;
+ height: 97vh;
+ overflow: hidden;
+ display: none;
+}
+.text-leaveGame{
+  color: #ffe81f;
+  font-size: 2em;
+  font-family: STARWARS;
+  text-align: center;
+  margin-top: 13%;
+}
+.button-return{
+  width: 20%;
+  height: 10%;
+  background-color: #ffe81f;
+  cursor: pointer;
+  margin-top: 5%;
+  margin-left: 40%;
+}
+.text-return{
+  color: #000;
+  font-size: 1.2em;
+  font-family: STARWARS;
+  margin-left: 11%;
+}
+.arrow{
+  margin-top: -22%;
+  margin-left: 83%;
+}
+.container7{
+  width: 100%;
+  height: 97vh;
+  overflow: hidden;
+  display: none;
+}
+.items-7{
+ display: flex;
+}
+.container-picture7{
+  width: 45%;
+  height: 70vh;
+
+  margin-top: 6%;
+  margin-left: 3%;
+}
+.img-nathalie{
+  width: 100%;
+  height: 100%;
+}
+.chat{
+  width: 50%;
+  height: 70vh;
+  border: 2px solid #ffe81f;
+  margin-left: 1%;
+}
+.chat-messageParent{
+  display: flex;
+  margin-left: 40%;
+}
+.chat-message{
+  width: 33%;
+  height: 10%;
+  border: 1px solid #ffe81f;
+  margin-top: -5%;
+  margin-left: 16%;
+}
+.chat-message2{
+  width: 30%;
+  height: 10%;
+  border: 1px solid #ffe81f;
+  margin-left: 10%;
+}
+.text-chat1{
+  color: #ffe81f;
+  font-size: 32px;
+  margin-top: 2%;
+  text-align: center;
+}
+  .is-active{
+    display: block;
+  }
+  .is-hidden{
+    display: none;
+  }
