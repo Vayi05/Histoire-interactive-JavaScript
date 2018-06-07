@@ -1,0 +1,397 @@
+
+#parent{
+  padding-top: 30%;
+}
+#div1{
+  position: relative;
+  width: 50%;
+  // opacity: 0.5;
+  border-radius: 50% 20% / 10% 40%;
+  background-color: #fff;
+  margin-left: 3%;
+  padding: 1em;
+  text-align: center;
+
+  animation-name: fadeIn;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  display: none;
+}
+@keyframes fadeIn {
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
+
+#div2{
+  position: relative;
+  width: 50%;
+  // opacity: 0.5;
+  border-radius: 50% 20% / 10% 40%;
+  background-color: #fff;
+  margin-left: 3%;
+  padding: 1em;
+  text-align: center;
+  font-size: 16px;
+  display: none;
+  animation-name: divFade;
+  animation-delay: 5s;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+}
+@keyframes divFade {
+0% {opacity: 0;}
+100% {opacity: 1;}
+ }
+ #divLeftOne{
+   position: relative;
+   width: 50%;
+   // opacity: 0.5;
+   border-radius: 50% 20% / 10% 40%;
+   background-color: #fff;
+   margin-top: 5%;
+   margin-left: 3%;
+   padding: 1em;
+   text-align: center;
+   font-size: 16px;
+   display: none;
+   animation-name: divLeftOne;
+   animation-delay: 5s;
+   animation-duration: 2s;
+   animation-fill-mode: both;
+ }
+ @keyframes divLeftOne {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+ }
+ #divLeftTwo{
+   position: relative;
+   width: 50%;
+   // opacity: 0.5;
+   border-radius: 50% 20% / 10% 40%;
+   background-color: #fff;
+   margin-left: 3%;
+   margin-top: 5%;
+   padding: 1em;
+   text-align: center;
+   font-size: 16px;
+   display: none;
+   animation-name: divLeftTwo;
+   animation-delay: 8s;
+   animation-duration: 2s;
+   animation-fill-mode: both;
+ }
+ @keyframes divLeftTwo {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+ }
+ #divLeftThree{
+   position: relative;
+   width: 50%;
+   // opacity: 0.5;
+   border-radius: 50% 20% / 10% 40%;
+   background-color: #fff;
+   margin-left: 3%;
+   margin-top: 5%;
+   padding: 1em;
+   text-align: center;
+   font-size: 16px;
+   display: none;
+   animation-name: divLeftThree;
+   animation-delay: 5s;
+   animation-duration: 3s;
+   animation-fill-mode: both;
+ }
+ @keyframes divLeftThree {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+ }
+ #divLeftFour{
+   position: relative;
+   width: 50%;
+   // opacity: 0.5;
+   border-radius: 50% 20% / 10% 40%;
+   background-color: #fff;
+   margin-left: 3%;
+   margin-top: 5%;
+   padding: 1em;
+   text-align: center;
+   font-size: 16px;
+   display: none;
+   animation-name: divLeftFour;
+   animation-delay: 5s;
+   animation-duration: 3s;
+   animation-fill-mode: both;
+ }
+ @keyframes divLeftFour {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+ }
+ #divLeftFive{
+   position: relative;
+   width: 50%;
+   // opacity: 0.5;
+   border-radius: 50% 20% / 10% 40%;
+   background-color: #fff;
+   margin-left: 3%;
+   margin-top: 5%;
+   padding: 1em;
+   text-align: center;
+   font-size: 16px;
+   display: none;
+   animation-name: divLeftFive;
+   animation-delay: 5s;
+   animation-duration: 3s;
+   animation-fill-mode: both;
+ }
+ @keyframes divLeftFive {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+ }
+ #divLeftSix{
+   position: relative;
+   width: 50%;
+   // opacity: 0.5;
+   border-radius: 50% 20% / 10% 40%;
+   background-color: #fff;
+   margin-left: 3%;
+   margin-top: 5%;
+   padding: 1em;
+   text-align: center;
+   font-size: 16px;
+   display: none;
+   animation-name: divLeftSix;
+   animation-delay: 5s;
+   animation-duration: 3s;
+   animation-fill-mode: both;
+ }
+ @keyframes divLeftSix {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+ }
+ #divLeftSeven{
+   position: relative;
+   width: 50%;
+   // opacity: 0.5;
+   border-radius: 50% 20% / 10% 40%;
+   background-color: #fff;
+   margin-left: 3%;
+   margin-top: 5%;
+   padding: 1em;
+   text-align: center;
+   font-size: 16px;
+   display: none;
+   animation-name: divLeftSeven;
+   animation-delay: 5s;
+   animation-duration: 3s;
+   animation-fill-mode: both;
+ }
+ @keyframes divLeftSeven {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+ }
+ #divLeftEight{
+   position: relative;
+   width: 50%;
+   // opacity: 0.5;
+   border-radius: 50% 20% / 10% 40%;
+   background-color: #fff;
+   margin-left: 3%;
+   margin-top: 5%;
+   padding: 1em;
+   text-align: center;
+   font-size: 16px;
+   display: none;
+   animation-name: divLeftEight;
+   animation-delay: 5s;
+   animation-duration: 3s;
+   animation-fill-mode: both;
+ }
+ @keyframes divLeftEight {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+ }
+ #divLeftNine{
+   position: relative;
+   width: 50%;
+   // opacity: 0.5;
+   border-radius: 50% 20% / 10% 40%;
+   background-color: #fff;
+   margin-left: 3%;
+   margin-top: 5%;
+   padding: 1em;
+   text-align: center;
+   font-size: 16px;
+   display: none;
+   animation-name: divLeftNine;
+   animation-delay: 5s;
+   animation-duration: 3s;
+   animation-fill-mode: both;
+ }
+ @keyframes divLeftNine {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+ }
+
+ #div3{
+   position: relative;
+   width: 50%;
+   // opacity: 0.5;
+   border-radius: 50% 20% / 10% 40%;
+   background-color: #fff;
+   margin-left: 3%;
+   padding: 1em;
+   text-align: center;
+   margin-top: 10%;
+   margin-left: 40%;
+   background-color: #91cfdc;
+   display: none;
+   // animation-name: fadeIn;
+   // animation-delay: 1s;
+   // animation-duration: 3s;
+   // animation-fill-mode: both;
+
+ }
+ // @keyframes fadeIn {
+ // 0% {opacity: 0;}
+ // 100% {opacity: 1;}
+ // }
+#message{
+  color: $black;
+  font-size: 0.8em;
+  font-family: montserrat;
+  font-weight: bold;
+}
+#divRightThree{
+  position: relative;
+  width: 50%;
+  // opacity: 0.5;
+  border-radius: 50% 20% / 10% 40%;
+  background-color: #fff;
+  margin-left: 3%;
+  padding: 1em;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 40%;
+  background-color: #91cfdc;
+  // display: none;
+  // animation-name: fadeIn;
+  // animation-delay: 1s;
+  // animation-duration: 3s;
+  // animation-fill-mode: both;
+  display: none;
+}
+#divRightFour{
+  position: relative;
+  width: 50%;
+  // opacity: 0.5;
+  border-radius: 50% 20% / 10% 40%;
+  background-color: #fff;
+  margin-left: 3%;
+  padding: 1em;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 40%;
+  background-color: #91cfdc;
+  display: none;
+  // animation-name: fadeIn;
+  // animation-delay: 1s;
+  // animation-duration: 3s;
+  // animation-fill-mode: both;
+  // display: none;
+}
+#divRightFive{
+  position: relative;
+  width: 50%;
+  // opacity: 0.5;
+  border-radius: 50% 20% / 10% 40%;
+  background-color: #fff;
+  margin-left: 3%;
+  padding: 1em;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 40%;
+  background-color: #91cfdc;
+  display: none;
+  // animation-name: fadeIn;
+  // animation-delay: 1s;
+  // animation-duration: 3s;
+  // animation-fill-mode: both;
+  // display: none;
+}
+#divRightSix{
+  position: relative;
+  width: 50%;
+  // opacity: 0.5;
+  border-radius: 50% 20% / 10% 40%;
+  background-color: #fff;
+  margin-left: 3%;
+  padding: 1em;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 40%;
+  background-color: #91cfdc;
+  display: none;
+  // animation-name: fadeIn;
+  // animation-delay: 1s;
+  // animation-duration: 3s;
+  // animation-fill-mode: both;
+  // display: none;
+}
+#divRightSeven{
+  position: relative;
+  width: 50%;
+  // opacity: 0.5;
+  border-radius: 50% 20% / 10% 40%;
+  background-color: #fff;
+  margin-left: 3%;
+  padding: 1em;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 40%;
+  background-color: #91cfdc;
+  display: none;
+  // animation-name: fadeIn;
+  // animation-delay: 1s;
+  // animation-duration: 3s;
+  // animation-fill-mode: both;
+  // display: none;
+}
+#divRightNine{
+  position: relative;
+  width: 50%;
+  // opacity: 0.5;
+  border-radius: 50% 20% / 10% 40%;
+  background-color: #fff;
+  margin-left: 3%;
+  padding: 1em;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 40%;
+  background-color: #91cfdc;
+  display: none;
+  // animation-name: fadeIn;
+  // animation-delay: 1s;
+  // animation-duration: 3s;
+  // animation-fill-mode: both;
+  // display: none;
+}
+#divRightTen{
+  position: relative;
+  width: 50%;
+  // opacity: 0.5;
+  border-radius: 50% 20% / 10% 40%;
+  background-color: #fff;
+  margin-left: 3%;
+  padding: 1em;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 40%;
+  background-color: #91cfdc;
+  display: none;
+  // animation-name: fadeIn;
+  // animation-delay: 1s;
+  // animation-duration: 3s;
+  // animation-fill-mode: both;
+  // display: none;
+}

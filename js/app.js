@@ -14,6 +14,7 @@ var form = document.querySelector('form');
 var input = document.querySelector('#input');
 var messageChatOne = document.querySelector('.Chat_messages_one');
 var messageChatTwo = document.querySelector('.Chat_messages_two');
+var imageNathalie = document.querySelector('.Chat_items_picture_nathalie');
 
 var counterTime = galaxy_textTime.textContent;
 
@@ -28,7 +29,28 @@ var text_chatOne = document.querySelector('.Chat_messages_one_text');
 var text_chatTwo = document.querySelector('.Chat_messages_two_text');
 var currentDiv = document.querySelector("#div1");
 var currentDiv2 = document.querySelector("#div2");
+var currentDiv3 = document.querySelector("#div3");
 var messageCurrentDiv = document.querySelector('#message');
+
+var divLeftOne = document.querySelector('#divLeftOne');
+var divLeftTwo = document.querySelector('#divLeftTwo');
+var divLeftThree = document.querySelector('#divLeftThree');
+var divLeftFour= document.querySelector('#divLeftFour');
+var divLeftFive = document.querySelector('#divLeftFive');
+var divLeftSix = document.querySelector('#divLeftSix');
+var divLeftSeven= document.querySelector('#divLeftSeven');
+var divLeftEight= document.querySelector('#divLeftEight');
+var divLeftNine= document.querySelector('#divLeftNine');
+
+var divRightThree = document.querySelector('#divRightThree');
+var divRightFour = document.querySelector('#divRightFour');
+var divRightFive = document.querySelector('#divRightFive');
+var divRightSix = document.querySelector('#divRightSix');
+var divRightSeven = document.querySelector('#divRightSeven');
+var divRightEight = document.querySelector('#divRightEight');
+var divRightNine = document.querySelector('#divRightNine');
+var divRightTen = document.querySelector('#divRightTen');
+var divRightEleven = document.querySelector('#divRightEleven');
 
 var timer;
 
@@ -39,42 +61,55 @@ var messages = [
   "textTwo" : "Gimmikiss vous a <br>  nexté, voulez vous <br>réessayer ? Faites le <br> bon choix cette fois."
   }
 ];
-var pickUP = messages[0].textOne;
-var p = messages[0].textTwo;
+var picMessageOne = messages[0].textOne;
+var picMessageTwo = messages[0].textTwo;
 
 var dataBetween = [
   {
   "textOne"  : "Bonjour Chui <br> Tu es très mignon!!",
   "textTwo" : "Si moi je suis mignon toi tu es <br> sublime, il n’y a pas de beauté comme <br> toi dans toute la galaxie",
   "textThree" : "Merci toi aussi, tu as de <br> beaux… astéroïdes….",
+  "textFour" : "Tu vas me faire rougir…",
+  "textFive" : "Dis-moi que fais-tu dans <br> la vie ?",
+  "textSix" : "Je suis perruquier des <br> stars, je rase les <br> wookies morts pour en <br>faire de magnifiques <br> perruques.",
+  "textSeven" : "Je suis pilote de <br> vaisseau pour le<br> seigneur Vador.",
+  "textEight" : "O tu travaille pour <br>  le seigneur Vador… ",
+  "textNine" : "Moi aussi j’ai un dark <br>  side 😊 ",
+  "textTen" : "Je dois t’avouer quelque <br> chose, tu ressembles <br> beaucoup à mon ex…",
+  "textTenEleven" : "J’espère que comme lui <br> tu es un expert dans le<br> massage de pied…",
+  "textEleven" : "Eu les réflexions bof de <br> Coruscante non merci.",
+  "textTwelve" : "Ouai géniale on pourra <br> faire des soirées <br> déguisées.",
+  // "textThirtheen" : "J’espère que comme lui <br> tu es un expert dans le<br> massage de pied…",
+  "textFourteen" : "Je deviendrai un expert <br> dans ce que tu voudras.",
+  "textFifteen" : "Et tu veux pas 100 balles <br> et 1 mars aussi ?",
+  "textSixteen" : "On se connais pas, je te <br> demande un massage <br> des pieds et tu dis oui !<br> J’ai besoin d’un homme <br> de caractère pas d’un <br> homme soumis ! Allez <br> bye.",
+  "textSeventeen" : "Nan une paire de <br> Louboutin pour <br> sublimer mes pieds<br> après le massage fera<br> l’affaire 😊",
+  "textEighteen" : "Bon écoute tu m’as <br> clairement l’air d’être le <br> wookie de ma vie. Veux <br> tu que l’on se rencontre <br> au tour d’un tatouine <br> sunrise ?",
+
   }
 ];
-var a = dataBetween[0].textOne;
-var b = dataBetween[0].textTwo;
-var c = dataBetween[0].textThree;
 
- // function addElement() {
- // var newDiv = document.createElement("div");
- // var newContent = document.createTextNode(pickUP);
- // newDiv.appendChild(newContent);
- // // var currentDiv = document.getElementById("div1");
- // // document.body.insertBefore(newDiv, currentDiv);
- // }
+// Récupérer les textes dans le fichier data
 
-
-
-
-
-// function animationText(items) {
-//   items.style.animationName = "fadeIn";
-//   items.style.animationDelay = "1s";
-//   items.style.animationDuration = "3s";
-//   items.style.animationFillMode = "both";
-//   items.style.@keyframes = fadeIn = "0% " + "{opacity: 0;}";
-//   items.style.@keyframes = fadeIn ="100%" + "{opacity: 1;}";
-//   }
-// }
-
+var pickDataBetweenOne = dataBetween[0].textOne;
+var pickDataBetweenTwo = dataBetween[0].textTwo;
+var pickDataBetweenThree = dataBetween[0].textThree;
+var pickDataBetweenFour = dataBetween[0].textFour;
+var pickDataBetweenFive = dataBetween[0].textFive;
+var pickDataBetweenSix = dataBetween[0].textSix;
+var pickDataBetweenSeven = dataBetween[0].textSeven;
+var pickDataBetweenEight = dataBetween[0].textEight;
+var pickDataBetweenNine= dataBetween[0].textNine;
+var pickDataBetweenTen= dataBetween[0].textTen;
+var pickDataBetweenTenEleven= dataBetween[0].textTenEleven;
+var pickDataBetweenEleven= dataBetween[0].textEleven;
+var pickDataBetweenTwelve= dataBetween[0].textTwelve;
+var pickDataBetweenThirteen= dataBetween[0].textThirtheen;
+var pickDataBetweenFourteen= dataBetween[0].textFourteen;
+var pickDataBetweenFifteen= dataBetween[0].textFifteen;
+var pickDataBetweenSixteen= dataBetween[0].textSixteen;
+var pickDataBetweenSeventeen= dataBetween[0].textSeventeen;
+var pickDataBetweenEighteen= dataBetween[0].textEighteen;
 
 btn_start.addEventListener('click', function(){
   galaxy_container.classList.add('is-active');
@@ -88,6 +123,11 @@ btn_start.addEventListener('click', function(){
       description_container.classList.add('is-active');
       galaxy_container.classList.remove('is-active');
       clearInterval(timer);
+      var audio = new Audio('assets/Star-Wars.mp3');
+      audio.play();
+      setTimeout(function(){
+        audio.pause()
+      }, 50000)
       return;
     }
   }
@@ -157,9 +197,67 @@ profile_pictureOne.addEventListener('click', function () {
     }else {
       chat_container.classList.add('is-active');
       profile_container.classList.remove('is-active');
-      currentDiv.innerHTML = a;
-      text_chatOne.innerHTML = b;
-      text_chatTwo.innerHTML = c;
+      currentDiv.style.display = 'block';
+      currentDiv.innerHTML = pickDataBetweenOne;
+      text_chatOne.innerHTML = pickDataBetweenTwo;
+      text_chatTwo.innerHTML = pickDataBetweenThree;
+      messageChatOne.addEventListener('click', function () {
+        currentDiv3.style.display = 'block';
+        currentDiv3.innerHTML = pickDataBetweenTwo;
+        divLeftOne.innerHTML = pickDataBetweenFour;
+        divLeftTwo.innerHTML = pickDataBetweenFive;
+        divLeftOne.style.display = 'block';
+        divLeftOne.innerHTML = pickDataBetweenFour;
+        divLeftTwo.style.display = 'block';
+        divLeftTwo.innerHTML = pickDataBetweenFive;
+        text_chatOne.innerHTML = pickDataBetweenSix;
+        text_chatTwo.innerHTML = pickDataBetweenSeven;
+
+        messageChatTwo.addEventListener('click', function () {
+          divRightThree.style.display = 'block';
+          divRightThree.innerHTML = pickDataBetweenSeven;
+          divLeftThree.style.display = 'block';
+          divLeftThree.innerHTML = pickDataBetweenEight;
+          divLeftFour.style.display = 'block';
+          divLeftFour.innerHTML = pickDataBetweenNine;
+          divLeftFive.style.display = 'block';
+          divLeftFive.innerHTML = pickDataBetweenTen;
+          divLeftSix.style.display = 'block';
+          divLeftSix.innerHTML = pickDataBetweenTenEleven;
+          imageNathalie.setAttribute('src', 'assets/img/laure4.png');
+          text_chatOne.innerHTML = pickDataBetweenFourteen;
+          text_chatTwo.innerHTML = pickDataBetweenFifteen;
+          messageChatOne.addEventListener('click', function () {
+
+          });
+          messageChatTwo.addEventListener('click', function () {
+            divLeftSeven.style.display = 'block';
+            divLeftSeven.innerHTML = pickDataBetweenSeventeen;
+            divLeftEight.style.display = 'block';
+            divLeftEight.innerHTML = pickDataBetweenEighteen;
+          });
+        });
+        messageChatOne.addEventListener('click', function () {
+          divRightThree.style.display = 'block';
+          divRightThree.innerHTML = pickDataBetweenSix;
+          divLeftThree.style.display = 'block';
+          divLeftThree.innerHTML = pickDataBetweenTwelve;
+          imageNathalie.setAttribute('src', 'assets/img/laure3.png');
+          divLeftFive.style.display = 'block';
+          divLeftFive.innerHTML = pickDataBetweenTen;
+          divLeftSix.style.display = 'block';
+          divLeftSix.innerHTML = pickDataBetweenTenEleven;
+          text_chatOne.innerHTML = pickDataBetweenFourteen;
+          text_chatTwo.innerHTML = pickDataBetweenFifteen;
+        });
+      });
+      messageChatTwo.addEventListener('click', function () {
+        currentDiv3.style.display = 'block';
+        currentDiv3.innerHTML = pickDataBetweenThree;
+        divLeftOne.style.display = 'block';
+        divLeftOne.innerHTML = pickDataBetweenEleven;
+        imageNathalie.setAttribute('src', 'assets/img/laure.png');
+      });
     }
     });
 });
@@ -173,10 +271,20 @@ profile_pictureTwo.addEventListener('click', function () {
     }else {
       chat_container.classList.add('is-active');
       profile_container.classList.remove('is-active');
-      currentDiv.innerHTML = pickUP;
-      currentDiv2.innerHTML = p;
+      currentDiv.style.display = 'block';
+      currentDiv2.style.display = 'block';
+      currentDiv.innerHTML = picMessageOne;
+      currentDiv2.innerHTML = picMessageTwo;
       text_chatOne.innerHTML = "Oui";
       text_chatTwo.innerHTML = "Non";
     }
     });
 });
+
+function addStyleDiv(items) {
+  items.style.width = "50%";
+  items.style.borderRadius = "50% 20% / 10% 40%";
+  items.style.backgroundColor = "#fff";
+  items.style.textAlign = "center";
+  items.style.padding = "1em";
+}

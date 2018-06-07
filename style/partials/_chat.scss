@@ -1,53 +1,4 @@
 
-#parent{
-  padding-top: 30%;
-}
-#div1{
-  width: 50%;
-  // opacity: 0.5;
-  border-radius: 50% 20% / 10% 40%;
-  background-color: #fff;
-  margin-left: 3%;
-  padding: 1em;
-  text-align: center;
-
-  animation-name: fadeIn;
-  animation-delay: 1s;
-  animation-duration: 3s;
-  animation-fill-mode: both;
-}
-@keyframes fadeIn {
-0% {opacity: 0;}
-100% {opacity: 1;}
-}
-#div2{
-  width: 50%;
-  // opacity: 0.5;
-  border-radius: 50% 20% / 10% 40%;
-  background-color: #fff;
-  margin-left: 3%;
-  padding: 1em;
-  text-align: center;
-  font-size: 16px;
-
-  animation-name: divFade;
-  animation-delay: 5s;
-  animation-duration: 3s;
-  animation-fill-mode: both;
-}
-@keyframes divFade {
-0% {opacity: 0;}
-100% {opacity: 1;}
- }
-
-#message{
-  color: $black;
-  font-size: 0.8em;
-  font-family: montserrat;
-  font-weight: bold;
-}
-
-
 .ChatContainer {
   display: none;
 }
@@ -74,7 +25,7 @@
       border: 2px solid $yellow;
       margin-left: 1%;
       margin-top: 3%;
-
+      overflow: scroll;
       border-spacing: 0;
     }
   }
@@ -96,7 +47,7 @@
         margin-top: 2%;
         text-align: center;
         animation-name: textOui;
-        animation-delay: 10s;
+        animation-delay: 5s;
         animation-duration: 3s;
         animation-fill-mode: both;
       }
@@ -119,7 +70,7 @@
         margin-top: 2%;
         text-align: center;
         animation-name: textNon;
-        animation-delay: 10s;
+        animation-delay: 5s;
         animation-duration: 3s;
         animation-fill-mode: both;
       }
