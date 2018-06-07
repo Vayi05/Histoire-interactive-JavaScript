@@ -206,6 +206,7 @@ profile_pictureOne.addEventListener('click', function () {
         currentDiv3.innerHTML = pickDataBetweenTwo;
         divLeftOne.innerHTML = pickDataBetweenFour;
         divLeftTwo.innerHTML = pickDataBetweenFive;
+        imageNathalie.setAttribute('src', 'assets/img/laure7.png');
         divLeftOne.style.display = 'block';
         divLeftOne.innerHTML = pickDataBetweenFour;
         divLeftTwo.style.display = 'block';
@@ -231,10 +232,12 @@ profile_pictureOne.addEventListener('click', function () {
 
           });
           messageChatTwo.addEventListener('click', function () {
-            divLeftSeven.style.display = 'block';
-            divLeftSeven.innerHTML = pickDataBetweenSeventeen;
+            divRightThree.style.display = 'block';
+            divRightThree.innerHTML = pickDataBetweenFifteen;
             divLeftEight.style.display = 'block';
-            divLeftEight.innerHTML = pickDataBetweenEighteen;
+            divLeftEight.innerHTML = pickDataBetweenSeventeen;
+            divLeftNine.style.display = 'block';
+            divLeftNine.innerHTML = pickDataBetweenEighteen;
           });
         });
         messageChatOne.addEventListener('click', function () {
@@ -277,6 +280,12 @@ profile_pictureTwo.addEventListener('click', function () {
       currentDiv2.innerHTML = picMessageTwo;
       text_chatOne.innerHTML = "Oui";
       text_chatTwo.innerHTML = "Non";
+      messageChatOne.addEventListener('click', function () {
+        // chat_container.classList.remove('is-active');
+        // profile_container.classList.add('is-active');
+      });
+      // messageChatTwo.
+      imageNathalie.setAttribute('src', 'assets/img/laure8.png');
     }
     });
 });
